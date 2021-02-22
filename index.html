@@ -19,7 +19,8 @@
         height:100%;
       }
       div#header {
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(10px);
       }
       img#logo {
         height: 10rem;
@@ -35,6 +36,12 @@
       }
       img.filler {
       	height: 40rem; !important
+      }
+      pre {
+      	display: inline;
+      }
+      a {
+      	text-decoration: none;
       }
     </style>
   </head>
@@ -55,6 +62,15 @@
       </div>
       <div class="col text-center">
         <img src="playmodded.png" class="img-fluid h-10 filler" height="200">
+      </div>
+    </div>
+    <div class="align-items-center p-5 row bg-dark w-100" id="what">
+    	<div class="col text-center">
+        <img src="playmodded.png" class="img-fluid h-10 filler" height="200">
+      </div>
+      <div class="col align-middle text-light">
+        <h1>How Does It Work?</h1>
+        <p>We run our homemade <a href="https://github.com/Project-Earth-Team/Project-Earth-API">Project Earth API</a> in combination with our custom fork of <a href="https://geysermc.org">GeyserMC</a> and a Minecraft: Java Edition server, which is our replication of the server side parts of Minecraft: Earth Edition. We then patch the app so that it connects to that server instead of Mojang&slash;Microsoft's</p>
       </div>
     </div>
 

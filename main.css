@@ -29,8 +29,8 @@ img#logo {
 }
 
 img.filler {
-  height: 40rem;
-  width: auto;
+  max-height: 40rem;
+  max-width: 100%;
 }
 
 pre {

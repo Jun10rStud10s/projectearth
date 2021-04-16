@@ -1,45 +1,45 @@
 html, body {
-	height: 100%
+	height: 100%;
 }
 
 div#header-wrapper {
 	background-image: url(https://www.minecraft.net/content/dam/games/earth/key-art/SunsetMCE_KeyArt_1170_NoLogo.jpg);
 	background-size: cover;
-	background-position: center
+	background-position: center;
 }
 
 div#header {
 	background-color: rgba(0, 0, 0, 0.25);
-	backdrop-filter: blur(10px)
+	backdrop-filter: blur(10px);
 }
 
 img#logo {
-	height: 10rem
+	height: 10rem;
 }
 
 #title, #subtitle {
-	color: #fff
+	color: #fff;
 }
 
 #title {
-	font-size: 5rem
+	font-size: 5rem;
 }
 
 .section {
-	height: 20%
+	height: 20%;
 }
 
 img.filler {
 	max-height: 40rem;
-	max-width: 100%
+	max-width: 100%;
 }
 
 pre {
-	display: inline
+	display: inline;
 }
 
 a {
-	text-decoration: none
+	text-decoration: none;
 }
 
 .scroll-to-top {
@@ -55,29 +55,29 @@ a {
 	line-height: 45px;
 	transition: opacity 0.5s;
 	opacity: 0;
-	visibility: hidden
+	visibility: hidden;
 }
 
 .scroll-to-top.show {
 	opacity: 1;
-	visibility: visible
+	visibility: visible;
 }
 
 .scroll-to-top:focus,.scroll-to-top:hover {
-	color: #fff
+	color: #fff;
 }
 
 .scroll-to-top:hover {
-	background: #343a40
+	background: #343a40;
 }
 
 .scroll-to-top i {
-	font-weight: 800
+	font-weight: 800;
 }
 
 a#down {
 	position: absolute;
 	bottom: 50px;
 	left: 50%;
-	transform: translateX(-50%)
+	transform: translateX(-50%);
 }

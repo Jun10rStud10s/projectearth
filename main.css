@@ -4,7 +4,8 @@ html, body {
 
 div#header-wrapper {
   background-image: url(https://www.minecraft.net/content/dam/games/earth/key-art/SunsetMCE_KeyArt_1170_NoLogo.jpg);
-  background-size: auto 100%;
+  background-size: cover;
+  background-position: center
 }
 
 div#header {
